@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- lang = "en" means Language is English -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- the body part will visible everytime -->
+
+<body>
+    <p>This is HTML Tutorial</p>
+
+    <h1>Heading 1</h1> <!-- for Most Importent Heading -->
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6> <!-- for least Importent Heading -->
+    <h7>Heading 7</h7>
+    <h8>Heading 8</h8> <!-- h7,h8, ....don't behave like Heading -->
+    <hr/>
+    <!-- Anchor Tag for add links to my page -->
+    <h1>Anchor Tag</h1>
+    <!-- Absolute Links -->
+    <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4&t=932s">Apna College HTML Tutorial</a>
+    <br />
+    <a href="https://www.google.com/">Google</a>
+    <br />
+    <!-- Relative links -->
+    <a href="/Hello.html">Print Hello</a>
+    <!--if they are not in same file, will mention the file name first like "/HelloFile/Hello.html"-->
+    <hr/>
+    <br />
+    <h1>Image Tag</h1>
+    <img src = "https://cdn.vox-cdn.com/thumbor/DZh9VoCJ3ci4j3nCI-HmwWVLByk=/0x0:2040x1360/1400x1050/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24016885/STK093_Google_04.jpg" alt="Google" height="200" />
+    <hr/>
+    <br>
+    <p>For Bold: <b>Hello</b> , For Italic: <i>Hello</i>
+    , for Underline: Hello Meself <u>Hamim</u></p>
+    <br>
+    <hr/>
+    <p>Big Text: <big> Hello World</big> <hr/> Small Tag: <small>Hello world </small></p>
+    <hr/>
+    <p>Subscript: H<sub>2</sub>O , SuperScript: 2<sup>n</sup></p>
+    <hr/>
+    <pre> Hello, 
+        Myself Hamim.
+        From Barishal, Bangladesh.
+    </pre>
+    <hr/>
+    <h1>Page Layout</h1>
+    <header>
+        <h3>My portFolio</h3>
+    </header>
+    <main>
+        <section>Education: UIU 2nd Year</section>
+        <section>Experience: Nothing</section>
+        <article>My untold Story: Failure</article>
+        <!--to open link in new page-->
+        <a href="https://www.google.com/" target="_main">Google</a>
+        <!--to open link by clicking images-->
+        <br>
+        <a href="https://www.google.com/" target="_main"><img src="https://cdn.vox-cdn.com/thumbor/DZh9VoCJ3ci4j3nCI-HmwWVLByk=/0x0:2040x1360/1400x1050/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24016885/STK093_Google_04.jpg" alt="Google" height="100"></a>
+        <aside>This is an ad</aside>
+    </main>
+    <br/>
+    <Footer> contact me at Email......</Footer>
+    <hr/>
+
+    <!--List in HTML-->
+    <header>
+        <h4>List of Fruits</h4>
+    </header>
+    <main>
+        <!--Unordered List-->
+        <ul>
+            <li>Apple</li>
+              <ul>
+                <li>color: RED</li>
+                <li>seasons: Winters</li>
+              </ul>
+            <li>Mango</li>
+            <ul>
+                <li>color: Orange</li>
+                <li>seasons: Summer</li>
+              </ul>
+        </ul>
+        <!--Ordered List-->
+        <ol>
+            <li>Apple</li>
+            <ul>
+                <li>color: RED</li>
+                <li>seasons: Winters</li>
+              </ul>
+            <li>Mango</li>
+            <ul>
+                <li>color: Orange</li>
+                <li>seasons: Summer</li>
+            </ul>
+        </ol>
+        <hr/>
+    </main>
+    <!--Table in HTML-->
+    <header>
+        <h4>Info Table</h4>
+    </header>
+    <main>
+        <table>
+            <caption>Student Data</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>  <!--to headed 1 table head for All columns ....
+                    th colspan="columns"-->
+                    <th>Student ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hamim</td>
+                    <td>0112310047</td>
+                </tr>
+                <tr>
+                    <td>Atika Amin</td>
+                    <td>0112310113</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <hr/>
+    <!--Form in HTML-->
+    <header>
+        <h4>Registration Form</h4>
+    </header>
+    <main>
+        <form action="/action.php">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="password">
+            <br/> 
+            <h4>Select program</h4>
+            <label for = "001">
+                <input type="radio" value="CSE" name="program">CSE
+            </label>
+            <label for="002">
+                <input type="radio" value="BBA" name="program">BBA
+            </label>
+            <br/> 
+            <h4>Select Subject</h4>
+            <label for="Math">
+                <input type="checkbox" value="Math" name="Subject">Math
+            </label>
+            <label for="Physics">
+                <input type="checkbox" value="Physics" name="Subject">Physics
+            </label><label for="Chemistry">
+                <input type="checkbox" value="Chemistry" name="Subject">Chemistry
+            </label>
+            <br>
+            <h4>Select City</h4>
+            <select>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Barishal">Barishal</option>
+                <option value="Khulna">Khulna</option>
+            </select>
+            <br>
+            <h4>FeedBack</h4>
+            <textarea name="FeedBack" placeholder="Please give your feedback" rows="6"></textarea>
+            <br><br>
+            <input type="submit" name="submit">
+            <hr>
+        </form>
+    </main>
+    <hr/>
+    <header>
+        <h4>Iframe Tag</h4>
+    </header>
+    <main>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=faZYMqP7MVTfWS9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><br>
+        <iframe height="315" width="560" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+    </main>
+    <hr>
+    <header>
+        <h4>Video Tag</h4>
+    </header>
+    <main>
+        <video width="560" height="315" src="/video.mp4" controls>My video</video>
+    </main>
+</body>
+</html>
